@@ -1,0 +1,8 @@
+    curl http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm -O
+    ls -ltr
+    rpm -ivh epel-release-7-11.noarch.rpm 
+    ls -ltr
+    rm -f *.rpm
+    ls -ltr
+    vi epel.repo 
+    yum update 

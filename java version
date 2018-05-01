@@ -1,0 +1,11 @@
+up vote
+4
+down vote
+favorite
+I have just installed Java SE Development Kit 8u91 on my 64 bit Windows-10 OS. I set my path variables . I tried java --version in my command prompt it gave me an error.
+
+c:\Users\Onlymanu>java --version
+Unrecognized option: --version    
+Error: Could not create the Java Virtual Machine. 
+Error: A fatal exception has occurred. Program will exit.
+But when i tried java -version it worked.
