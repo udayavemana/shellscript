@@ -3,7 +3,7 @@ cd /tmp
 mkdir ansiblepackage
 cd ansiblepackage
 echo "enabling the epel and downloading the rpm pack of ansible"
-Yum install wget -y
+yum install wget -y
 wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -ivh epel-release-latest-7.noarch.rpm          
 cd /root
